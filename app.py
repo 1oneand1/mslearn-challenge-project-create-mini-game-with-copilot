@@ -1,4 +1,4 @@
-# python minigame, rock, paper, scissors
+# python mini game, rock, paper, scissors
 # rock beats scissors
 # scissors beats paper
 # paper beats rock
@@ -14,7 +14,7 @@ def play():
     computer_wins = 0
     player_wins = 0
     play_the_game = True
-    
+
     while play_the_game:
 
         # the player can choose one of three options(rock, paper, scissors) 
