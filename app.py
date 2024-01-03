@@ -9,9 +9,12 @@ import random
 def play():
     """Play a game of rock, paper, scissors"""
 
+    # get the player's and computer's total wins and the total rounds
+    total_rounds = 0
     computer_wins = 0
     player_wins = 0
     play_the_game = True
+    
     while play_the_game:
 
         # the player can choose one of three options(rock, paper, scissors) 
